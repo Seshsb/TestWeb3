@@ -1,10 +1,8 @@
 from typing import Union, Dict
 
 from web3 import Web3
-from web3.middleware import geth_poa_middleware
 
 from config import MUMBAI_MATIC_TEST_URL, WALLET_ADDRESS, PRIVATE_KEY
-from utils import delete_exp
 
 
 class Transaction:
